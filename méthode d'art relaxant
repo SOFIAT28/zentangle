@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passion Zentangle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2rem 0;
+        }
+        .bio, .zentangle {
+            background-color: #fff;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Passion Zentangle</h1>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <h2>À propos de moi</h2>
+            <p>Salut ! Je m'appelle Sofia et je vis en Algérie. Passionnée par la lecture, le dessin, la cuisine et les chats, je trouve de la joie dans les petites choses de la vie. J'adore explorer de nouveaux mondes à travers les livres, exprimer ma créativité par le dessin et partager des recettes savoureuses. Mes chats me tiennent compagnie et m'inspirent chaque jour. Merci de votre visite et à bientôt !</p>
+        </div>
+        <div class="zentangle">
+            <h2>Qu'est-ce que le Zentangle ?</h2>
+            <p>Le Zentangle est une méthode de dessin relaxante et méditative, basée sur des motifs répétitifs. Créée par Rick Roberts et Maria Thomas, cette technique permet à chacun, même sans expérience artistique, de créer des œuvres d'art complexes et magnifiques. Le Zentangle utilise des motifs appelés "tangles", qui sont assemblés dans des structures appelées "tiles". C'est un excellent moyen de se détendre et de libérer sa créativité.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/11_crop_Zentangle.jpg" alt="Exemple de Zentangle">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sofia. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
